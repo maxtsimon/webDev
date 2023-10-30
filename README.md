@@ -1,9 +1,7 @@
 # webDev
 New Tech Presentation for CSCI 435
 
-## Demo
-
-Initial Requirements:
+## Initial Requirements
 
 - [node.js](https://nodejs.org/en/download)
 
@@ -39,3 +37,12 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
 
   from package.json
 
+  ## Demo
+
+  1. Within your newly created React app, replace your `App.js` and `App.css` files with the files in this repository.
+
+  2. Work on filling in the missing code snippets (indicated by the comments) while your app is running to gauge your accuracy
+
+  3. Submit to Alejandro a screenshot of the webpage with the following conditions:
+
+     - 
