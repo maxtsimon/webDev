@@ -1,0 +1,49 @@
+/* Change the background color of body to change the color of the entire webpage */
+
+body {
+  background-color: white;
+}
+
+/* Change the color of h1 to change the text color of every header on the webpage */
+
+h1 {
+  color: black;
+}
+
+
+p {
+  color: black;
+}
+
+#count-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+/* Change the color of the button and it's text when the cursor hovers over the button */
+
+#count-button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+/* Change the color of the button and it's shadow, and translate the button downward to simulate a physical button press when the button is pressed */
+
+#count-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* TODO: create CSS rulesets for the other two buttons of the webpage, feel free to take inspiration from the provided example */
+/* HINT: when the HTML button element is defined, there is an associated id necessary to link the ruleset to button */
+/* HINT: when assigning rulesets by element id, the id must be preceeded by a # symbol */
