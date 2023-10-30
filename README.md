@@ -49,3 +49,4 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
      - Button Demo button is labeled with "Clicked 5 times" as a result of clicking the button 5 times
      - List Demo list contains 5 elements of which two are magenta and three are dark green
      - Form Demo Form contains two input boxes, and both should be filled in with the appropriate information (your password will appear as dots)
+     - The Get Quote button and Login button contain rulesets within App.css to make them look different from how they do by default
