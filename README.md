@@ -45,4 +45,7 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
 
   3. Submit to Alejandro a screenshot of the webpage with the following conditions:
 
-     - 
+     - API Demo section contains a random quote and it's associated author rendered to the screen
+     - Button Demo button is labeled with "Clicked 5 times" as a result of clicking the button 5 times
+     - List Demo list contains 5 elements of which two are magenta and three are dark green
+     - Form Demo Form contains two input boxes, and both should be filled in with the appropriate information (your password will appear as dots)
