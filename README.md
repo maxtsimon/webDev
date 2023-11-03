@@ -37,16 +37,14 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
 
   from package.json
 
+  5. Use `Ctrl + C` to terminate the program and run `npm i axios` to install the axios package, which allows us to make HTTP requests in our web app.
+
   ## Demo
 
-  1. Within your newly created React app, replace your `App.js` and `App.css` files with the files in this repository.
+  1. Within your newly created React app, replace your `App.js` and `index.css` files with the files in this repository.
 
   2. Work on filling in the missing code snippets (indicated by the comments) while your app is running to gauge your accuracy
 
   3. Submit to Alejandro a screenshot of the webpage with the following conditions:
 
-     - API Demo section contains a random quote and it's associated author rendered to the screen
-     - Button Demo button is labeled with "Clicked 5 times" as a result of clicking the button 5 times
-     - List Demo list contains 5 elements of which two are magenta and three are dark green
-     - Form Demo Form contains two input boxes, and both should be filled in with the appropriate information (your password will appear as dots)
-     - The Get Quote button and Login button contain rulesets within App.css to make them look different from how they do by default
+     
