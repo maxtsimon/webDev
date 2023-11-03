@@ -18,7 +18,7 @@ New Tech Presentation for CSCI 435
 
 React App:
 
-1. Open your terminal in the directory you would like to create your application.
+1. Open your terminal in the directory you would like to create your application
 
 2. Run this command to create a React application named my-react-app: `npx create-react-app my-react-app`
 
@@ -26,7 +26,7 @@ React App:
 
 4. `npm start`
 
-If you get an error along the lines of `Plugin "react" was conflicted between`, open your my-react-app directory within your IDE and delete
+If you get an error along the lines of `Plugin "react" was conflicted between`, open your my-react-app directory within your IDE and within package.json, delete
 
 `"eslintConfig": {
     "extends": [
@@ -35,16 +35,35 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
     ]
   },`
 
-  from package.json
+5. React should automatically open up your browser, but if not, head to `http://localhost:3000/` to see the default React web app
 
-  5. Use `Ctrl + C` to terminate the program and run `npm i axios` to install the axios package, which allows us to make HTTP requests in our web app.
 
-  ## Demo
+6. In the terminal, hit `CTRL + C` to terminate the program
 
-  1. Within your newly created React app, replace your `App.js` and `index.css` files with the files in this repository.
 
-  2. Work on filling in the missing code snippets (indicated by the comments) while your app is running to gauge your accuracy
+7. Within the project directory, run `npm i axios` to install the axios package, which allows us to make HTTP requests in our web app
 
-  3. Submit to Alejandro a screenshot of the webpage with the following conditions:
+## Demo
 
+This Demo asks you to use your understanding of React Hooks to create a basic web app that reports weather conditions of a user-specified location. As you work through the demo, you will be able to type into the search bar at the top of the screen and trigger an API call with the `ENTER` key. The API call will populate the screen with response data from the GET request. Out of the box, this functionality does not work.
+
+1. Within your newly created React app, replace your `App.js` and `index.css` files with the files in this repository
+
+2. Work on filling in the missing code snippets in `App.js` (indicated by the comments) while your app is running to gauge your accuracy
+
+3. Submit to Alejandro a screenshot of the webpage with the following conditions:
+
+    - The web app displays six metrics
+          1. Location
+          2. Temperature
+          3. Description
+          4. Feels Like
+          5. Humidity
+          6. Wind Speed
+      
+      - The screenshot contains weather information for any location other than Miami
      
+      - All numbers displayed by the web app are whole numbers (no decimal points)
+       
+
+ 
