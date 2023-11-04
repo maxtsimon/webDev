@@ -53,9 +53,7 @@ This Demo asks you to use your understanding of React Hooks to create a basic we
 
 3. Submit to Alejandro a screenshot of the webpage with the following conditions:
 
-   - The web app displays six metrics: Location, Temperature, Description, Feels Like, Humidity, Wind Speed    
+   - The web app displays seven metrics: Location, Temperature, Description, Feels Like, Humidity, Wind Speed, and one more of your choosing    
    - The screenshot contains weather information for any location other than Miami
    - All numbers displayed by the web app are whole numbers (no decimal points)
-       
-
  
