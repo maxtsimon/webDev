@@ -47,7 +47,7 @@ If you get an error along the lines of `Plugin "react" was conflicted between`, 
 
 This Demo asks you to use your understanding of React Hooks to create a basic web app that reports weather conditions of a user-specified location. As you work through the demo, you will be able to type into the search bar at the top of the screen and trigger an API call with the `ENTER` key. The API call will populate the screen with response data from the GET request. Out of the box, this functionality does not work.
 
-1. Within your newly created React app, replace your `App.js` and `index.css` files with the files in this repository
+1. Within your newly created React app, replace your `App.js` and `index.css` files with the files in this repository and include the `assets` folder within the `src` folder of your React app as well
 
 2. Work on filling in the missing code snippets in `App.js` (indicated by the comments) while your app is running to gauge your accuracy
 
